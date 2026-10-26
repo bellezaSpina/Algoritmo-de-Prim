@@ -4,7 +4,7 @@
 Implementação em **C** do algoritmo de **Prim** sobre grafos não direcionados e ponderados, com o grafo **modularizado como um TAD** que pode ser trocado entre duas representações (**lista de adjacência** ou **matriz de adjacência**) sem alterar o código do algoritmo, e com uma **fila de prioridade (min-heap) com índices** para a extração do vértice de menor chave.
 
 > Exercício-programa (EP) desenvolvido na **USP Leste (EACH-USP)**, curso de **Sistemas de Informação**.
-> Disciplina: Algoritmos e Estruturas de Dados II  · Autor(a): ERICK BELLEZA SPINA
+> Disciplina: Algoritmos e Estruturas de Dados II  · Autor: ERICK BELLEZA SPINA
 
 ---
 
