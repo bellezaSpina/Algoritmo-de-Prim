@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33990789/README.md)
 # Árvore Geradora Mínima com o Algoritmo de Prim
 
 Implementação em **C** do algoritmo de **Prim** sobre grafos não direcionados e ponderados, com o grafo **modularizado como um TAD** que pode ser trocado entre duas representações (**lista de adjacência** ou **matriz de adjacência**) sem alterar o código do algoritmo, e com uma **fila de prioridade (min-heap) com índices** para a extração do vértice de menor chave.
