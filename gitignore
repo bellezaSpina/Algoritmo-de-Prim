@@ -1,0 +1,7 @@
+# executaveis e saidas geradas
+ep_lista
+ep_matriz
+*.o
+*.exe
+saida_*.txt
+!exemplos/saida_*.txt
