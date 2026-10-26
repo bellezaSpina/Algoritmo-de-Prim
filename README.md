@@ -24,12 +24,14 @@ Dado um grafo em arquivo texto, o programa:
 
 ```
 .
+├── .gitignore
 ├── EP.1.c            # main, leitura/validação do grafo, Prim, DFS e saída
 ├── EP.1.heap.c       # min-heap com vetores auxiliares de posição (indice/vertice)
 ├── EP.1.lista.c      # TAD GRAFO com lista de adjacência
 ├── EP.1.matriz.c     # TAD GRAFO com matriz de adjacência
 ├── Makefile          # build das duas versões + teste
 ├── exemplos/         # entradas de exemplo e saída esperada
+├── LICENSE
 └── README.md
 ```
 
