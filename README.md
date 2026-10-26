@@ -198,7 +198,6 @@ ERRO: ARESTA PARALELA (0,1)
 
 ## Limitações conhecidas
 
-- **Pesos devem ser menores que 100.** O "infinito" do Prim é a constante `PesoMax = 100.0f`; arestas com peso ≥ 100 nunca são relaxadas e o programa pode falhar.
 - A raiz do Prim é fixa em `0` (o heap inicial só é válido com a raiz na posição 0).
 - A versão em **matriz** aceita no máximo **100 vértices** (`MAXNUMVERTICE`).
 - `removeAresta` remove apenas um sentido da aresta (o grafo guarda cada aresta nos dois sentidos) e não é usada pelo programa principal.
@@ -206,9 +205,7 @@ ERRO: ARESTA PARALELA (0,1)
 ## Ideias de evolução
 
 - Separar interfaces em arquivos `.h` e compilar cada módulo em `.o` (hoje os `.c` são incluídos diretamente).
-- Substituir `PesoMax` por `FLT_MAX`/`INFINITY`.
 - Comparar o desempenho das duas representações em grafos esparsos e densos.
-- Implementar Kruskal para comparação.
 
 ---
 
